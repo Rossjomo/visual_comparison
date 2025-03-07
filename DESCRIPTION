@@ -1,0 +1,17 @@
+Package: pricevaluecomp
+Title: Price Value Comparison
+Description: Clean price values, returns a pot graph & returns the requested Best Value recomendations
+Version: 1.0
+Authors@R: person("Ross", "Morton", email = "rossjohnmorton@gmail.com", role = c("aut", "cre", "cph"))
+License: MIT + file LICENSE
+Video: https://youtu.be/1lOM-rfOF5M
+YEAR: 2024
+COPYRIGHT HOLDER: pricevaluecomp authors
+Imports: 
+    tidyverse,
+    dplyr,
+    ggplot2,
+    stringr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
